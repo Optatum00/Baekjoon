@@ -1,0 +1,10 @@
+A, B, C = map(int, input().split())
+test = []
+test.append(A)
+test.append(B)
+test.append(C)
+M = max(test)
+N = min(test)
+test.remove(M)
+test.remove(N)
+print(test[0])
